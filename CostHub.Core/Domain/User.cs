@@ -24,5 +24,14 @@ namespace CostHub.Core.Domain
             Email = email;
             DateCreated = DateTime.UtcNow;
         }
+        public User(string firstName, string lastName, string login, string email)
+        {
+            Id = 0;
+            FirstName = firstName;
+            LastName = lastName;
+            Login = login;
+            Email = email;
+            DateCreated = DateTime.UtcNow;
+        }
     }
 }

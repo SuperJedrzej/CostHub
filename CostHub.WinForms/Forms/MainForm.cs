@@ -20,8 +20,8 @@ namespace CostHub.WinForms
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            var service = new TestServices();
-            dataGridView1.DataSource = service.BrowseTests();
+            var service = new UserService();
+            dataGridView1.DataSource = service.BrowseUsers();
         }
     }
 }
